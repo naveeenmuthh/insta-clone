@@ -1,0 +1,88 @@
+.left-bar-container{
+ /* border:2px solid red; */
+ background-color: black;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width:12%;
+}
+
+.instagram-title-container{
+ display: flex;
+ /* background-color: pink; */
+ justify-content: center;
+ align-items: center;
+ height: 15%;
+ cursor: pointer;
+}
+
+.instagram-title{
+ margin-top: 30px;
+ margin-right: 20px;
+}
+
+.action-item{
+/* border:2px solid purple; */
+display: flex;
+cursor: pointer;
+align-items: center; 
+margin-left: 20px;
+font-weight: 500px;
+gap:15px;
+}
+
+.left-bar-container a{
+ text-decoration: none;
+ font-size:17px;
+ color: white;
+ 
+}
+
+.left-bar-container-svg{
+ color: white;
+}
+
+
+.left-bar-container a:link {
+ text-decoration: none;
+}
+
+.left-bar-container a:visited {
+ text-decoration: none;
+}
+
+.left-bar-container a:hover {
+ text-decoration: none;
+}
+
+.left-bar-container a:active {
+ text-decoration: none;
+}
+
+.left-bar-more-container{
+ cursor: pointer;
+ display: flex;
+ gap:7px;
+ height:15%;
+ align-items: center;
+}
+
+.left-bar-more-items{
+ display: flex;
+ margin-left: 20px;
+font-weight: 500px;
+gap:15px;
+}
+
+.action-items-container{
+ display: flex;
+ /* border: 2px solid blue; */
+ flex-direction: column;
+ justify-content: space-evenly;
+ flex:1;
+}
+
+.insta-profile-image{
+ width:30px;
+ border-radius: 20px;
+}
