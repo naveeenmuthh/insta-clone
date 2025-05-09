@@ -14,11 +14,13 @@ function App() {
     <>
        <div className="main-container">
        <LeftBarComponent/>
-       <div className="mid-container">
+           <div className="movable-container">
+           <div className="mid-container">
        <StoryComponent/>
        <PostComponent/>
        </div>
        <RightBarComponent/> 
+           </div>
        </div>
     </>
   )
