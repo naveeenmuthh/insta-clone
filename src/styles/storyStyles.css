@@ -1,5 +1,5 @@
 .story-container{
- border: 2px solid yellow; 
+ /* border: 2px solid yellow;  */
  display:flex; 
 align-items: center;
 justify-content: center;
@@ -7,7 +7,7 @@ justify-content: center;
 
 .story-items-container{
  display: flex;
- border: 2px solid green;
+ /* border: 2px solid green; */
  margin-top: 20px;
  margin-left: -100px;
  width:70%;

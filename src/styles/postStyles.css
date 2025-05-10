@@ -1,12 +1,13 @@
 .post-container{
- border: 2px solid blue;
+ /* border: 2px solid blue; */
+ margin-top: 10px;
  display: flex;
  flex-direction: column;
  align-items: center;
 }
 
 .post{
- border:2px solid red;
+ /* border:2px solid red; */
  width:60%;
  margin-right: 70px;
 
@@ -24,24 +25,24 @@ cursor: pointer;
 }
 
 .post-top-bar{
- border:2px solid green;
+ /* border:2px solid green; */
  display: flex;
  justify-content: space-between;
 }
 
-.post-content{
+/* .post-content{
  border:2px solid yellow;
-}
+} */
 
-.post-activity-info{
+/* .post-activity-info{
  border:2px solid blue;
 }
 
 .post-profile-img-container{
  border:2px solid green;
-}
+} */
 .profile-name{
- border:2px solid green;
+ /* border:2px solid green; */
  display: flex;
  flex-direction: column;
 }
