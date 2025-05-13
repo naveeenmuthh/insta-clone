@@ -7,6 +7,13 @@
  width:12%;
 }
 
+.left-bar-container-mobile{
+ /* border:2px solid red; */
+ background-color: black;
+ display: flex;
+ width:100%;
+}
+
 .instagram-title-container{
  display: flex;
  /* background-color: pink; */
@@ -15,6 +22,16 @@
  height: 15%;
  cursor: pointer;
 }
+
+.instagram-logo-container{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ margin-left: 20px;
+margin-top: 20px;
+}
+
+
 
 .instagram-title{
  margin-top: 30px;
@@ -78,6 +95,14 @@ gap:15px;
  display: flex;
  /* border: 2px solid blue; */
  flex-direction: column;
+ justify-content: space-evenly;
+ flex:1;
+}
+
+.action-items-container-mobile{
+ display: flex;
+ /* border: 2px solid blue; */
+ flex-direction: row;
  justify-content: space-evenly;
  flex:1;
 }

@@ -2,14 +2,23 @@
  /* border: 2px solid blue; */
  margin-top: 10px;
  display: flex;
+ gap:20px;
+ min-width: 450px;
  flex-direction: column;
  align-items: center;
 }
 
 .post{
  /* border:2px solid red; */
+ display: flex;
+ flex-direction: column;
+ gap:5px;
  width:60%;
+width: 418px;
+height: auto;
  margin-right: 70px;
+ margin-left: auto;
+ margin-right: auto;
 
 }
 
