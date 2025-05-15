@@ -47,3 +47,11 @@
  height:44px;
  border-radius: 50%;
 }
+
+.profile-info{
+ cursor: pointer;
+}
+
+.right-bar-container{
+ cursor: pointer;
+}

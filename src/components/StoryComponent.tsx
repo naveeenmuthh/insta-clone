@@ -58,17 +58,17 @@ const data = [{
 
   return (
     <div className="story-container">
-      <button className="prev-container nav-button" onClick={()=>scroll(-1)}>prev</button>
         <div className="story-items-container" ref={sliderRef}>
+        <button className="prev-container nav-button" onClick={()=>scroll(-1)}>{`<`}</button>
         {data.map((d,i)=>{
-
 return <div className="story-items" key={i}>
   {d.prof_img}
   {d.profile_name}
 </div>
+
 })}
+        <button className="next-container nav-button" onClick={()=>scroll(1)}>{'>'}</button>
         </div>
-        <button className="next-container nav-button" onClick={()=>scroll(1)}>next</button>
     </div>
   )
 }

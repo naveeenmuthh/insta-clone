@@ -1,6 +1,6 @@
 .main-container{
 display: flex;
-border: 2px solid black;
+/* border: 2px solid red; */
 justify-content: space-between;
 margin:0;
 height: 100vh;
@@ -11,12 +11,12 @@ box-sizing: border-box;
 
 .main-mobile-container{
  display: flex;
- border: 2px solid black;
+ /* border: 2px solid red; */
  justify-content: space-between;
  margin:0;
  height: 100vh;
  width:100vw;
- overflow: hidden;
+ 
  flex-direction: column;
  box-sizing: border-box;
  }
@@ -31,7 +31,9 @@ box-sizing: border-box;
 .movable-container{
  display: flex;
  width:100%;
+ /* border: 2px solid green; */
  overflow-y:scroll ;
+ overflow-x: hidden;
 }
 
 .post-activity-info{
