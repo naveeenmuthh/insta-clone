@@ -53,6 +53,7 @@ cursor: pointer;
 .profile-name{
  /* border:2px solid green; */
  display: flex;
+
  flex-direction: column;
 }
 
@@ -76,4 +77,5 @@ cursor: pointer;
 
 .profile-content-info{
  display: flex;
+ gap:5px;
 }
