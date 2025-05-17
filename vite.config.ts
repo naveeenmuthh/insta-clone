@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/instagram-clone/",
+  base:"/insta-clone/",
   plugins: [react()],
 })
